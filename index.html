@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kumar Nenavath – Backend Software Engineer</title>
+  <meta name="description" content="Kumar Nenavath – backend software engineer with 6+ years building high-volume transaction systems, APIs and integrations. Java, Spring Boot, Python, TypeScript, SQL, AWS.">
+  <meta property="og:title" content="Kumar Nenavath – Backend Software Engineer">
+  <meta property="og:description" content="Java · Spring Boot · Python · TypeScript · SQL · AWS. Projects, experience and contact.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%231d4ed8'/><text x='50%' y='56%' font-family='Arial' font-weight='700' font-size='30' fill='white' text-anchor='middle' dominant-baseline='middle'>KN</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Home">KN</a>
+      <nav aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme" id="theme" type="button" aria-label="Toggle dark mode">◐</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <p class="eyebrow">Backend Software Engineer · Hyderabad, India · Open to remote</p>
+      <h1>Kumar Nenavath</h1>
+      <p class="lead">
+        I build and run backend systems where correctness matters: high-volume insurance transaction platforms,
+        billing, and the APIs and integrations around them. Six years across NTT DATA, Genpact and Accenture —
+        Java and Spring Boot day to day, with Python, TypeScript, SQL and AWS.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See projects</a>
+        <a class="btn" href="https://github.com/kumarnenavath5815-cpu" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/kumar-nenavath-a92566b9/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <ul class="stats" aria-label="Highlights">
+        <li><strong>6+</strong><span>years in production backend work</span></li>
+        <li><strong>6</strong><span>public projects with tests and CI</span></li>
+        <li><strong>US &amp; EU</strong><span>insurance carriers served</span></li>
+      </ul>
+    </section>
+
+    <section class="wrap" id="projects" aria-labelledby="projects-h">
+      <h2 id="projects-h">Projects</h2>
+      <p class="sub">Each repo has a README with the design decisions, automated tests, and a GitHub Actions pipeline.</p>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button type="button" class="chip active" data-filter="all">All</button>
+        <button type="button" class="chip" data-filter="java">Java</button>
+        <button type="button" class="chip" data-filter="python">Python</button>
+        <button type="button" class="chip" data-filter="typescript">TypeScript</button>
+      </div>
+      <div class="grid" id="project-grid">
+        <article class="card" data-tags="java">
+          <h3>Shop Service</h3>
+          <p>E-commerce order API: JWT auth, catalog, cart, checkout with optimistic-locking stock reservation, and signed, idempotent payment webhooks.</p>
+          <ul class="tags"><li>Java 17</li><li>Spring Boot 3</li><li>JPA</li><li>Webhooks</li></ul>
+          <a class="link" href="https://github.com/kumarnenavath5815-cpu/shop-service" target="_blank" rel="noopener">View code →</a>
+        </article>
+        <article class="card" data-tags="java">
+          <h3>Billing Service</h3>
+          <p>Insurance billing REST API: payment plans, installment schedules that always sum to the premium, oldest-first payment allocation and a delinquency job.</p>
+          <ul class="tags"><li>Java 17</li><li>Spring Boot 3</li><li>MockMvc</li><li>RFC 7807</li></ul>
+          <a class="link" href="https://github.com/kumarnenavath5815-cpu/billing-service" target="_blank" rel="noopener">View code →</a>
+        </article>
+        <article class="card" data-tags="python">
+          <h3>Claims Dashboard</h3>
+          <p>Claims analytics: Flask JSON API with parameterised SQL over SQLite, and a Chart.js dashboard for loss ratio, monthly trends and reporting lag.</p>
+          <ul class="tags"><li>Python</li><li>Flask</li><li>SQL</li><li>Chart.js</li></ul>
+          <a class="link" href="https://github.com/kumarnenavath5815-cpu/claims-dashboard" target="_blank" rel="noopener">View code →</a>
+        </article>
+        <article class="card" data-tags="python">
+          <h3>Claims Pipeline</h3>
+          <p>Batch ETL with validation and quarantine, SQL marts, reconciliation checks and rolling-baseline anomaly detection; all-or-nothing publish.</p>
+          <ul class="tags"><li>Python</li><li>SQL</li><li>Data quality</li></ul>
+          <a class="link" href="https://github.com/kumarnenavath5815-cpu/claims-pipeline" target="_blank" rel="noopener">View code →</a>
+        </article>
+        <article class="card" data-tags="typescript">
+          <h3>Blog API</h3>
+          <p>Blog platform backend: roles and ownership rules, unique slugs, drafts, nested comments, idempotent likes, login rate limiting.</p>
+          <ul class="tags"><li>TypeScript</li><li>Express</li><li>JWT</li><li>Jest</li></ul>
+          <a class="link" href="https://github.com/kumarnenavath5815-cpu/blog-api" target="_blank" rel="noopener">View code →</a>
+        </article>
+        <article class="card" data-tags="typescript">
+          <h3>Policy Desk</h3>
+          <p>Policy lifecycle app: quote, issue, endorse, cancel and reinstate with penny-accurate refund maths; GraphQL API and React UI.</p>
+          <ul class="tags"><li>TypeScript</li><li>GraphQL</li><li>React</li><li>Postgres</li></ul>
+          <a class="link" href="https://github.com/kumarnenavath5815-cpu/policy-desk" target="_blank" rel="noopener">View code →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap" id="experience" aria-labelledby="exp-h">
+      <h2 id="exp-h">Experience</h2>
+      <ol class="timeline">
+        <li>
+          <div class="when">Dec 2025 – Present</div>
+          <div>
+            <h3>Senior Consultant – Software Engineer · NTT DATA</h3>
+            <p>Backend logic, validations and service integrations for a high-volume insurance transaction platform used by a US carrier. Integrated a third-party calculation service with a fallback path, fixed a silent SOAP failure after an upstream contract change, tuned queries with explain plans, and own monthly releases.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">Feb 2022 – Dec 2025</div>
+          <div>
+            <h3>Software Engineer · Genpact</h3>
+            <p>REST and SOAP integrations and queue-based messaging between core systems, vendors and regulators; billing configuration; a multi-state product built end to end; and a major platform version upgrade.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">Feb 2019 – Apr 2020</div>
+          <div>
+            <h3>Software Engineer · Accenture</h3>
+            <p>Enterprise application development and AWS data migration pipelines (S3, Glue, Redshift, Lambda); Jenkins CI/CD.</p>
+          </div>
+        </li>
+      </ol>
+      <p class="edu"><strong>Education:</strong> B.Tech, Information Technology – National Institute of Technology (NIT) Srinagar</p>
+    </section>
+
+    <section class="wrap" id="skills" aria-labelledby="skills-h">
+      <h2 id="skills-h">Skills</h2>
+      <div class="skills">
+        <div><h3>Languages</h3><p>Java, Python, TypeScript, SQL</p></div>
+        <div><h3>Backend</h3><p>Spring Boot, JPA, Express, Flask, REST, SOAP, GraphQL, message queues</p></div>
+        <div><h3>Data</h3><p>Postgres, SQL Server, SQLite, query tuning and indexing, AWS S3 / Glue / Redshift</p></div>
+        <div><h3>Quality &amp; delivery</h3><p>JUnit, MockMvc, Jest, pytest; code review; Git; Jenkins and GitHub Actions CI</p></div>
+      </div>
+    </section>
+
+    <section class="wrap contact" id="contact" aria-labelledby="contact-h">
+      <h2 id="contact-h">Contact</h2>
+      <p>Open to remote backend roles and contract work. The fastest way to reach me is email.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:iamkumarnenavath@gmail.com">iamkumarnenavath@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/kumar-nenavath-a92566b9/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/kumarnenavath5815-cpu" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">© <span id="year">2026</span> Kumar Nenavath</footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
