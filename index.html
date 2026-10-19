@@ -54,11 +54,18 @@
       <div class="filters" role="group" aria-label="Filter projects">
         <button type="button" class="chip active" data-filter="all">All</button>
         <button type="button" class="chip" data-filter="java">Java</button>
+        <button type="button" class="chip" data-filter="kotlin">Kotlin</button>
         <button type="button" class="chip" data-filter="python">Python</button>
         <button type="button" class="chip" data-filter="typescript">TypeScript</button>
         <button type="button" class="chip" data-filter="devops">DevOps</button>
       </div>
       <div class="grid" id="project-grid">
+        <article class="card" data-tags="kotlin java devops">
+          <h3>Payments Service</h3>
+          <p>Card payments in Kotlin: authorize, capture, refunds and disputes, with idempotency keys, signed webhooks processed exactly once, and a transactional outbox to Kafka. REST, GraphQL and a deprecated v1 API with Sunset headers.</p>
+          <ul class="tags"><li>Kotlin</li><li>Spring Boot 3</li><li>MySQL</li><li>Kafka</li><li>GraphQL</li><li>GitLab CI</li></ul>
+          <a class="link" href="https://github.com/Nanikss/payments-service" target="_blank" rel="noopener">View code →</a>
+        </article>
         <article class="card" data-tags="java">
           <h3>Shop Service</h3>
           <p>E-commerce order API: JWT auth, catalog, cart, checkout with optimistic-locking stock reservation, and signed, idempotent payment webhooks.</p>
